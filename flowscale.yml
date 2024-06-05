@@ -3,18 +3,6 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: 7cl9o97teqs
-    name: apparel_bg_change.json
-    description: ''
-    file: apparel_bg_change.json
-  - id: 79jhhvv6vhw
-    name: deps.json
-    description: ''
-    file: __comfy/data/deps.json
-  - id: vtu6hf5jzz
-    name: snapshot.json
-    description: ''
-    file: __comfy/data/snapshot.json
   - id: vcykuflv0bi
     name: img2mask.json
     description: ''
@@ -32,7 +20,3 @@ workflows:
         demo_type: image
         category: input
         randomize: false
-  - id: eo94mo38sct
-    name: basic.json
-    description: ''
-    file: primary/basic.json
