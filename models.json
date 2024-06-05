@@ -1,0 +1,32 @@
+[
+  {
+    "name": "stabilityai/control-lora-canny-rank256.safetensors",
+    "type": "controlnet",
+    "base": "SDXL",
+    "save_path": "default",
+    "description": "Control-LoRA: canny rank256",
+    "reference": "https://huggingface.co/stabilityai/control-lora",
+    "filename": "control-lora-canny-rank256.safetensors",
+    "url": "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-canny-rank256.safetensors"
+  },
+  {
+    "name": "ViT-B SAM model",
+    "type": "sam",
+    "base": "SAM",
+    "save_path": "sams",
+    "description": "Segmenty Anything SAM model (ViT-B)",
+    "reference": "https://github.com/facebookresearch/segment-anything#model-checkpoints",
+    "filename": "sam_vit_b_01ec64.pth",
+    "url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth"
+  },
+  {
+    "name": "4x-UltraSharp",
+    "type": "upscale",
+    "base": "upscale",
+    "save_path": "default",
+    "description": "4x-UltraSharp upscaler model",
+    "reference": "https://huggingface.co/Kim2091/UltraSharp/",
+    "filename": "4x-UltraSharp.pth",
+    "url": "https://huggingface.co/Kim2091/UltraSharp/resolve/main/4x-UltraSharp.pth"
+  }
+]

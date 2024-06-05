@@ -1,0 +1,23 @@
+[
+  {
+    "author": "storyicon",
+    "title": "segment anything",
+    "id": "sam",
+    "reference": "https://github.com/storyicon/comfyui_segment_anything",
+    "files": [
+      "https://github.com/storyicon/comfyui_segment_anything"
+    ],
+    "install_type": "git-clone",
+    "description": "Based on GroundingDino and SAM, use semantic strings to segment any element in an image. The comfyui version of sd-webui-segment-anything."
+  },
+  {
+    "name": "SDXL-controlnet: OpenPose (v2)",
+    "type": "controlnet",
+    "base": "SDXL",
+    "save_path": "default",
+    "description": "ControlNet openpose model for SDXL",
+    "reference": "https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0",
+    "filename": "OpenPoseXL2.safetensors",
+    "url": "https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0/resolve/main/OpenPoseXL2.safetensors"
+  }
+]
