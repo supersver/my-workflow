@@ -28,4 +28,4 @@ workflows:
         category: input
         randomize: false
     outputs:
-      - demo_type: iamge
+      - demo_type: image
