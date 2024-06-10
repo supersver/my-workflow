@@ -28,27 +28,3 @@ workflows:
         randomize: false
     outputs:
       - demo_type: iamge
-  - id: 9ya1cf1i8av
-    name: user_models_and_nodes.json
-    description: ''
-    file: user_models_and_nodes.json
-  - id: 7mhce5tfbe
-    name: deps.json
-    description: ''
-    file: __comfy/data/deps.json
-  - id: cyjksmu0gap
-    name: snapshot.json
-    description: ''
-    file: __comfy/data/snapshot.json
-  - id: pnu5ddnthx
-    name: img2mask.json
-    description: ''
-    file: img2mask/img2mask.json
-  - id: aba38ksufei
-    name: basic.json
-    description: ''
-    file: primary/basic.json
-  - id: x2c35vl0izd
-    name: workflow_api.json
-    description: ''
-    file: testing/workflow_api.json
