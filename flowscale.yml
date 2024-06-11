@@ -4,31 +4,31 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: t0w6fojycmg
+  - id: synq8xn9izo
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-  - id: v4vksoxoig
+  - id: chnf8od5nq8
     name: user_models_and_nodes.json
     description: ''
     file: user_models_and_nodes.json
-  - id: kbvoige0r4p
+  - id: x0977fpbujo
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: cu5cr4q362
+  - id: 2qu803v3xb2
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: 8i29rvwiqk
+  - id: gbmt9rdhhy9
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: rpl74pb32d
+  - id: jrjtvlj4r4
     name: basic.json
     description: ''
     file: primary/basic.json
-  - id: p1m56b6eest
+  - id: iu76fvy8xo
     name: workflow_api.json
     description: ''
     file: testing/workflow_api.json
