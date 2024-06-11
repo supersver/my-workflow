@@ -1,30 +1,34 @@
 version: 0.0.1
-
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: sada66dasdgas
-    name: basic
-    description: This is a basic workflow
+  - id: 6qmhz3xw86w
+    name: apparel_bg_change.json
+    description: ''
+    file: apparel_bg_change.json
+  - id: abzxs7ms4f
+    name: user_models_and_nodes.json
+    description: ''
+    file: user_models_and_nodes.json
+  - id: yfv2uvsmff
+    name: deps.json
+    description: ''
+    file: __comfy/data/deps.json
+  - id: pjhau547jzf
+    name: snapshot.json
+    description: ''
+    file: __comfy/data/snapshot.json
+  - id: 7ku7b2oofuy
+    name: img2mask.json
+    description: ''
+    file: img2mask/img2mask.json
+  - id: 7b8ibjc5wss
+    name: basic.json
+    description: ''
     file: primary/basic.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        category: input
-        demo_type: number
-      - path: 6.inputs.text
-        parameter_name: prompt
-        type: string
-        category: input
-        demo_type: text
-    outputs:
-      - demo_type: image
+  - id: 5b0e17sbdzm
+    name: workflow_api.json
+    description: ''
+    file: testing/workflow_api.json
