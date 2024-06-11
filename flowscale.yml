@@ -4,39 +4,43 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: 5kqez05akwf
+  - id: 1kix9kapyex
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-  - id: r6p8uv9qn0a
+  - id: wxqe4kqvtpn
     name: user_models_and_nodes.json
     description: ''
     file: user_models_and_nodes.json
-  - id: tgd9ewg1hgo
+  - id: i0tc9mf7hx
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: morw1hp0c
+  - id: l8fwsybbxv
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: x3ipssr126
+  - id: xek108hkv3a
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: t5ubhkxxde
+  - id: 5rwbyeu2629
     name: basic.json
     description: ''
     file: primary/basic.json
-  - id: 8mttrlmbohp
+  - id: 7kcuwfe1vxv
     name: qqqqqqqqqqqqqqqqq.json
     description: ''
     file: rnjqjbr/qqqqqqqqqqqqqqqqq.json
-  - id: bbt2mpnj046
+  - id: qbdijbogqh
+    name: qwqw.json
+    description: ''
+    file: rnjqjbr/qwqw.json
+  - id: 8icy5jnf8pv
     name: wwww.json
     description: ''
     file: rnjqjbr/wwww.json
-  - id: eot0kpd7s55
+  - id: vifgpirckee
     name: workflow_api.json
     description: ''
     file: testing/workflow_api.json
