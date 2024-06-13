@@ -4,54 +4,27 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: 6jbx83avuz6
+  - id: xbutmfmbj
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-    inputs:
-      - path: 193.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 3.inputs.seed
-        parameter_name: seed
-        type: integer
-        demo_type: number
-        category: input
-        randomize: true
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-      - path: 3.inputs.cfg
-        parameter_name: cfg
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: iamge
-  - id: 8mmarwoz4ua
+  - id: 0nq2w1rlb1
     name: user_models_and_nodes.json
     description: ''
     file: user_models_and_nodes.json
-  - id: bxpzlc908h
+  - id: wny2wzc38d
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: cq9pb02grkc
+  - id: jpnpej1pnq
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: eo4b8wtixd5
+  - id: i8euocmksu8
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: 68mactcmaes
+  - id: a3syuatpsgb
     name: basic.json
     description: ''
     file: primary/basic.json
