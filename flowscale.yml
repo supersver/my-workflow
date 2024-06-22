@@ -1,54 +1,50 @@
-version: 0.0.3
+version: 0.0.4
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: 0k5hcnky08fr
+  - id: mavxq7fx199
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-  - id: z73t11uk0cf
-    name: user_custom_nodes.json
+  - id: 34gjeg3k0hy
+    name: user_models_and_nodes.json
     description: ''
-    file: user_custom_nodes.json
-  - id: k33h2aw9fx
-    name: user_models.json
-    description: ''
-    file: user_models.json
-  - id: fv7jctspzdb
+    file: user_models_and_nodes.json
+  - id: vjuk6n8gnwf
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: o03k56ngl7
+  - id: t7zhyo0c62j
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: s4l8jnhkkb
+  - id: 53eub386p2y
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: fs387gpeo7o
+  - id: wl4q0bcyu8g
     name: basic.json
     description: ''
     file: primary/basic.json
-  - id: p6cxuyqev2
+  - id: 3xb2isulzlg
     name: eee.json
     description: ''
     file: testing/eee.json
-  - id: r90u6wqiaaj
+  - id: rmj96m2ppj
     name: gggh.json
     description: ''
     file: testing/gggh.json
-  - id: sdwywqshbn
+  - id: 5oyvloqzgc
     name: qwqw.json
     description: ''
     file: testing/qwqw.json
-  - id: 6shn7zzympv
+  - id: 1a7zxyjh9av
     name: rrrr.json
     description: ''
     file: testing/rrrr.json
-  - id: 3w19vc4dkfj
+  - id: 8qa47ugpok8
     name: wwww.json
     description: ''
     file: testing/wwww.json
