@@ -1,4 +1,4 @@
-version: 0.0.1
+version: 0.0.2
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -32,6 +32,27 @@ workflows:
     name: newFile.json
     description: ''
     file: rnjqjbr/newFile.json
+    inputs:
+      - path: 9.inputs.filename_prefix
+        parameter_name: filename_prefix
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+      - path: 3.inputs.seed
+        parameter_name: seed
+        type: integer
+        demo_type: number
+        category: input
+        randomize: true
+      - path: 3.inputs.steps
+        parameter_name: steps
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
+    outputs:
+      - demo_type: image
   - id: gohm76lx0no
     name: 12qeq.json
     description: ''
