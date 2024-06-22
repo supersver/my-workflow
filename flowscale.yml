@@ -23,23 +23,3 @@ workflows:
         randomize: false
     outputs:
       - demo_type: text
-  - id: 0nq2w1rlb1
-    name: user_models_and_nodes.json
-    description: ''
-    file: user_models_and_nodes.json
-  - id: wny2wzc38d
-    name: deps.json
-    description: ''
-    file: __comfy/data/deps.json
-  - id: jpnpej1pnq
-    name: snapshot.json
-    description: ''
-    file: __comfy/data/snapshot.json
-  - id: i8euocmksu8
-    name: img2mask.json
-    description: ''
-    file: img2mask/img2mask.json
-  - id: a3syuatpsgb
-    name: basic.json
-    description: ''
-    file: primary/basic.json
