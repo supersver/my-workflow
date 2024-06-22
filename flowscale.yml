@@ -4,80 +4,63 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: qv4uqksz5ch
+  - id: 7f6nm3zzz7
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-  - id: x1v10jf7mwe
-    name: user_models_and_nodes.json
+  - id: 5v3f63lfx6m
+    name: user_custom_nodes.json
     description: ''
-    file: user_models_and_nodes.json
-  - id: q6hqgcshkws
+    file: user_custom_nodes.json
+  - id: twik4prm1df
+    name: user_models.json
+    description: ''
+    file: user_models.json
+  - id: w91hjnmi3yn
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: rdiwa9dc3us
+  - id: gwo765q1dp9
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: hk39y5mczos
+  - id: wbhut52l5am
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: 9nqba85nqig
+  - id: hbr4c6hppc
     name: basic.json
     description: ''
     file: primary/basic.json
-  - id: 205ai23yg8p
+  - id: 0t4bab9yx0a
     name: newFile.json
     description: ''
     file: rnjqjbr/newFile.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 3.inputs.seed
-        parameter_name: seed
-        type: integer
-        demo_type: number
-        category: input
-        randomize: true
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: image
-  - id: gohm76lx0no
+  - id: sfmr7oi9cn
     name: 12qeq.json
     description: ''
     file: testing/12qeq.json
-  - id: xo5er3vd76
+  - id: m40f7u3416
     name: eee.json
     description: ''
     file: testing/eee.json
-  - id: abo7uienf0u
+  - id: aj0c15dyj1
     name: gggh.json
     description: ''
     file: testing/gggh.json
-  - id: d29s06ybzw5
+  - id: 4eedoz3edui
     name: qwqw.json
     description: ''
     file: testing/qwqw.json
-  - id: qzrxelfu72
+  - id: i9vo09fwqk
     name: rrrr.json
     description: ''
     file: testing/rrrr.json
-  - id: ym7queoqgc
+  - id: s4n32o86zmq
     name: wwww.json
     description: ''
     file: testing/wwww.json
-  - id: oe9mytv6oid
+  - id: s9t49e21vr
     name: My workflow.json
     description: ''
     file: tet/My workflow.json
