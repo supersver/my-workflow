@@ -4,76 +4,59 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: 9t33avhw40q
+  - id: qv4uqksz5ch
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-  - id: quqa2s3dlqi
+  - id: x1v10jf7mwe
     name: user_models_and_nodes.json
     description: ''
     file: user_models_and_nodes.json
-  - id: jnlesrv2yqs
+  - id: q6hqgcshkws
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: gqufnbpjuzm
+  - id: rdiwa9dc3us
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: t373r9bhxu
+  - id: hk39y5mczos
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: oax1wqasn4
+  - id: 9nqba85nqig
     name: basic.json
     description: ''
     file: primary/basic.json
-  - id: mjaifuow5n
+  - id: 205ai23yg8p
+    name: newFile.json
+    description: ''
+    file: rnjqjbr/newFile.json
+  - id: gohm76lx0no
     name: 12qeq.json
     description: ''
     file: testing/12qeq.json
-  - id: 4mzmxfhgt0c
+  - id: xo5er3vd76
     name: eee.json
     description: ''
     file: testing/eee.json
-  - id: vxm4i2rwjdh
+  - id: abo7uienf0u
     name: gggh.json
     description: ''
     file: testing/gggh.json
-  - id: z0gx3zrmir
+  - id: d29s06ybzw5
     name: qwqw.json
     description: ''
     file: testing/qwqw.json
-  - id: oz93soe0jag
+  - id: qzrxelfu72
     name: rrrr.json
     description: ''
     file: testing/rrrr.json
-  - id: 6wnzz69rt3j
+  - id: ym7queoqgc
     name: wwww.json
     description: ''
     file: testing/wwww.json
-  - id: yw7h4mplqad
+  - id: oe9mytv6oid
     name: My workflow.json
     description: ''
     file: tet/My workflow.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 3.inputs.seed
-        parameter_name: seed
-        type: integer
-        demo_type: number
-        category: input
-        randomize: true
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: image
