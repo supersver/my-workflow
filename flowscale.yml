@@ -4,47 +4,51 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: kiu4xr2hadn
+  - id: vgl3afajql
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-  - id: ufdpl1h4e1
-    name: user_models_and_nodes.json
+  - id: 4l15tvv5cot
+    name: user_custom_nodes.json
     description: ''
-    file: user_models_and_nodes.json
-  - id: fe9denahxsw
+    file: user_custom_nodes.json
+  - id: glwd2mrlyo4
+    name: user_models.json
+    description: ''
+    file: user_models.json
+  - id: zu5gs6wk51i
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: ps8b0u0irvb
+  - id: cey8a7m45fv
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: hqqdzd3v2y
+  - id: w7g6gb0wt8
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: 6g1ectwmt9u
+  - id: y1ujx472wt
     name: basic.json
     description: ''
     file: primary/basic.json
-  - id: 72qm1ahsne
+  - id: sfne2jie6q9
     name: eee.json
     description: ''
     file: testing/eee.json
-  - id: 5ygfpw92d3l
+  - id: igfwza8jwhl
     name: gggh.json
     description: ''
     file: testing/gggh.json
-  - id: qhrb9ixgsjn
+  - id: 0vm5oayxx2jj
     name: qwqw.json
     description: ''
     file: testing/qwqw.json
-  - id: 29ixh1jn851
+  - id: ywgyx1cm6gg
     name: rrrr.json
     description: ''
     file: testing/rrrr.json
-  - id: hhm8aixwar9
+  - id: oraca3yc7d
     name: wwww.json
     description: ''
     file: testing/wwww.json
