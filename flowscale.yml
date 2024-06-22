@@ -4,84 +4,63 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: euilvya1rma
+  - id: kkgjlog1u3e
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-    inputs:
-      - path: 193.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 3.inputs.seed
-        parameter_name: seed
-        type: integer
-        demo_type: number
-        category: input
-        randomize: true
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: image
-  - id: 3xnot2fk1yk
+  - id: y6isik7fhz
     name: user_custom_nodes.json
     description: ''
     file: user_custom_nodes.json
-  - id: ybthjbt2itl
+  - id: 1n5hcj6yjvr
     name: user_models.json
     description: ''
     file: user_models.json
-  - id: jrl5fb8xnbk
+  - id: hlz279s9wj6
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: q8g6vpcr02a
+  - id: b4rogkmicoa
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: b6nlv9bvrpc
+  - id: 9w7eytl2eui
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: xu844ab9iip
+  - id: dopcvq8egx
     name: basic.json
     description: ''
     file: primary/basic.json
-  - id: 51b0cbvvqi2
+  - id: 9m5gno505cv
     name: newFile.json
     description: ''
     file: rnjqjbr/newFile.json
-  - id: 82zr4w08zwv
+  - id: rlm8rx71zr
     name: 12qeq.json
     description: ''
     file: testing/12qeq.json
-  - id: 49lsbzjaerk
+  - id: 95yv9wpubrb
     name: eee.json
     description: ''
     file: testing/eee.json
-  - id: 0ckeec3i21r
+  - id: k2wdahivx9s
     name: gggh.json
     description: ''
     file: testing/gggh.json
-  - id: uas66pylyl
+  - id: l9uqqmovwc7
     name: qwqw.json
     description: ''
     file: testing/qwqw.json
-  - id: 83asziha8aa
+  - id: ilky2ituea
     name: rrrr.json
     description: ''
     file: testing/rrrr.json
-  - id: rt8q6f0ea3
+  - id: el266q1r82
     name: wwww.json
     description: ''
     file: testing/wwww.json
-  - id: fwceq0tbufw
+  - id: 5up8y2dnn4q
     name: My workflow.json
     description: ''
     file: tet/My workflow.json
