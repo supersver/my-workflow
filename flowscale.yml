@@ -4,78 +4,51 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: muk1u8hz7dq
+  - id: 8lowi6wv0s
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-    inputs:
-      - path: 193.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 3.inputs.seed
-        parameter_name: seed
-        type: integer
-        demo_type: number
-        category: input
-        randomize: true
-      - path: 3.inputs.cfg
-        parameter_name: cfg
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: image
-  - id: b5jhbxuyxa7
+  - id: duvnxiq3ute
     name: user_custom_nodes.json
     description: ''
     file: user_custom_nodes.json
-  - id: ftes1o728jn
+  - id: 1akvcrjdi66
     name: user_models.json
     description: ''
     file: user_models.json
-  - id: 0cgo2cvbzlja
+  - id: vm19t2jyli
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: t0b08l0yo7g
+  - id: ormksbvi5l8
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: 2qgqwjdh4mg
+  - id: j30pek106or
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: 33km8x3q20g
+  - id: jwyj582sasf
     name: basic.json
     description: ''
     file: primary/basic.json
-  - id: 3ok5l9xy3wo
+  - id: h2gf9arh2pt
     name: eee.json
     description: ''
     file: testing/eee.json
-  - id: mr8unfih9g
+  - id: yt7a1krtc9a
     name: gggh.json
     description: ''
     file: testing/gggh.json
-  - id: 3zqbmkgqd5g
+  - id: 725dn7x71ml
     name: qwqw.json
     description: ''
     file: testing/qwqw.json
-  - id: nm2j6xleir
+  - id: o3h9b0gbep
     name: rrrr.json
     description: ''
     file: testing/rrrr.json
-  - id: qwi2ag5tnl
+  - id: d7jk9ofhqmv
     name: wwww.json
     description: ''
     file: testing/wwww.json
