@@ -29,7 +29,7 @@
     "filename": "4x-UltraSharp.pth",
     "url": "https://huggingface.co/Kim2091/UltraSharp/resolve/main/4x-UltraSharp.pth"
   },
-   {
+  {
     "name": "v1-5-pruned-emaonly.ckpt",
     "type": "checkpoints",
     "base": "SD1.5",
