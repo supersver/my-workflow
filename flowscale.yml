@@ -74,4 +74,3 @@ workflows:
     name: My workflow.json
     description: ''
     file: tet/My workflow.json
-version: 0.0.2
