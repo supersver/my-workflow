@@ -14,12 +14,12 @@ workflows:
         demo_type: text
         category: output
         randomize: true
-      - path: 3.inputs.seed
-        parameter_name: seed
-        type: integer
-        demo_type: number
+      - path: 4.inputs.ckpt_name
+        parameter_name: ckpt_name
+        type: string
+        demo_type: text
         category: input
-        randomize: true
+        randomize: false
     outputs:
       - demo_type: image
   - id: z4e414e7lk7
@@ -74,4 +74,4 @@ workflows:
     name: My workflow.json
     description: ''
     file: tet/My workflow.json
-version: 0.0.1
+version: 0.0.2
