@@ -7,6 +7,21 @@ workflows:
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
+    inputs:
+      - path: 193.inputs.filename_prefix
+        parameter_name: filename_prefix
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+      - path: 3.inputs.seed
+        parameter_name: seed
+        type: integer
+        demo_type: number
+        category: input
+        randomize: true
+    outputs:
+      - demo_type: image
   - id: z4e414e7lk7
     name: user_models_and_nodes.json
     description: ''
@@ -59,3 +74,4 @@ workflows:
     name: My workflow.json
     description: ''
     file: tet/My workflow.json
+version: 0.0.1
