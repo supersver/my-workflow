@@ -4,80 +4,63 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: 1w1hsom4b7j
+  - id: 8bpit9dr84i
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-    inputs:
-      - path: 193.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 3.inputs.seed
-        parameter_name: seed
-        type: integer
-        demo_type: number
-        category: input
-        randomize: true
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: image
-  - id: z4e414e7lk7
+  - id: xd18ifnjewr
     name: user_models_and_nodes.json
     description: ''
     file: user_models_and_nodes.json
-  - id: b88l8ekbjug
+  - id: 6bhb4019gfv
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: z68wda2nlbi
+  - id: 0ls8zx2djps
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: exhvg5nt71v
+  - id: vumw88lf7jl
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: l0ibm4szb49
+  - id: 4i87ad4nu2
     name: basic.json
     description: ''
     file: primary/basic.json
-  - id: 5jfyi10j0h6
+  - id: w1lbgqbdyon
     name: newFile.json
     description: ''
     file: rnjqjbr/newFile.json
-  - id: ms9v8apd45
+  - id: akamsmukqof
     name: 12qeq.json
     description: ''
     file: testing/12qeq.json
-  - id: 3hnz7nuamkk
+  - id: v7za1nx0pu9
     name: eee.json
     description: ''
     file: testing/eee.json
-  - id: mbpbf9l4yag
+  - id: fscrk4sikn8
     name: gggh.json
     description: ''
     file: testing/gggh.json
-  - id: dulhlave44d
+  - id: jw6zwqaapll
     name: klkl.json
     description: ''
     file: testing/klkl.json
-  - id: wx9ico4evi
+  - id: 3z5tn14vs4m
+    name: nfkanljn_fnaklnflan_fnangk.json
+    description: ''
+    file: testing/nfkanljn_fnaklnflan_fnangk.json
+  - id: y8mtni4proi
     name: qwqw.json
     description: ''
     file: testing/qwqw.json
-  - id: az6sevo495p
+  - id: useyuexbhu
     name: rrrr.json
     description: ''
     file: testing/rrrr.json
-  - id: qd13ul6w5id
+  - id: 073j7gzkyy0n
     name: My workflow.json
     description: ''
     file: tet/My workflow.json
