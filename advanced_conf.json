@@ -1,4 +1,16 @@
 {
-  "packages": ["websocket-client", "numba", "opencv-python", "scikit-image", "imageio-ffmpeg", "numba"],
-  "apt_dependencies": ["libopencv-dev", "libgl1-mesa-glx", "libglib2.0-0", "ffmpeg"]
+  "packages": [
+    "websocket-client",
+    "numba",
+    "opencv-python",
+    "scikit-image",
+    "imageio-ffmpeg",
+    "numba"
+  ],
+  "apt_dependencies": [
+    "libopencv-dev",
+    "libgl1-mesa-glx",
+    "libglib2.0-0",
+    "ffmpeg"
+  ]
 }
