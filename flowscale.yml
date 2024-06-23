@@ -1,4 +1,4 @@
-version: 0
+version: 1
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -21,6 +21,12 @@ workflows:
         demo_type: number
         category: input
         randomize: true
+      - path: 3.inputs.steps
+        parameter_name: steps
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
     outputs:
       - demo_type: image
   - id: z4e414e7lk7
