@@ -1,4 +1,4 @@
-version: 7
+version: 8
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -8,6 +8,21 @@ workflows:
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
+    inputs:
+      - path: 3.inputs.seed
+        parameter_name: seed
+        type: integer
+        demo_type: number
+        category: input
+        randomize: true
+      - path: 3.inputs.steps
+        parameter_name: steps
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
+    outputs:
+      - demo_type: text
   - id: yuybwykkdt
     name: user_models_and_nodes.json
     description: ''
