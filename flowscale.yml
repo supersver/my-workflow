@@ -73,7 +73,3 @@ workflows:
         randomize: false
     outputs:
       - demo_type: image
-  - id: 92ohczaaqe6
-    name: My workflow.json
-    description: ''
-    file: tet/My workflow.json
