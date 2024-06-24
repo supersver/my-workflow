@@ -29,18 +29,6 @@ workflows:
         randomize: false
     outputs:
       - demo_type: image
-  - id: xd18ifnjewr
-    name: user_models_and_nodes.json
-    description: ''
-    file: user_models_and_nodes.json
-  - id: 6bhb4019gfv
-    name: deps.json
-    description: ''
-    file: __comfy/data/deps.json
-  - id: 0ls8zx2djps
-    name: snapshot.json
-    description: ''
-    file: __comfy/data/snapshot.json
   - id: vumw88lf7jl
     name: img2mask.json
     description: ''
@@ -72,43 +60,3 @@ workflows:
         randomize: false
     outputs:
       - demo_type: image
-  - id: 4i87ad4nu2
-    name: basic.json
-    description: ''
-    file: primary/basic.json
-  - id: w1lbgqbdyon
-    name: newFile.json
-    description: ''
-    file: rnjqjbr/newFile.json
-  - id: akamsmukqof
-    name: 12qeq.json
-    description: ''
-    file: testing/12qeq.json
-  - id: v7za1nx0pu9
-    name: eee.json
-    description: ''
-    file: testing/eee.json
-  - id: fscrk4sikn8
-    name: gggh.json
-    description: ''
-    file: testing/gggh.json
-  - id: jw6zwqaapll
-    name: klkl.json
-    description: ''
-    file: testing/klkl.json
-  - id: 3z5tn14vs4m
-    name: nfkanljn_fnaklnflan_fnangk.json
-    description: ''
-    file: testing/nfkanljn_fnaklnflan_fnangk.json
-  - id: y8mtni4proi
-    name: qwqw.json
-    description: ''
-    file: testing/qwqw.json
-  - id: useyuexbhu
-    name: rrrr.json
-    description: ''
-    file: testing/rrrr.json
-  - id: 073j7gzkyy0n
-    name: My workflow.json
-    description: ''
-    file: tet/My workflow.json
