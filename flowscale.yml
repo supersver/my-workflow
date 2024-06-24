@@ -4,59 +4,55 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: 8bpit9dr84i
+  - id: t0hn6wnmzj
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-    inputs:
-      - path: 193.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 3.inputs.seed
-        parameter_name: seed
-        type: integer
-        demo_type: number
-        category: input
-        randomize: true
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: image
-  - id: vumw88lf7jl
+  - id: 2128370pa7f
+    name: user_models_and_nodes.json
+    description: ''
+    file: user_models_and_nodes.json
+  - id: kfzhoasqv3h
+    name: deps.json
+    description: ''
+    file: __comfy/data/deps.json
+  - id: y9ad7t2odbg
+    name: snapshot.json
+    description: ''
+    file: __comfy/data/snapshot.json
+  - id: tpv0l385lvh
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 1.inputs.image
-        parameter_name: image
-        type: string
-        demo_type: image
-        category: input
-        randomize: false
-      - path: 1.inputs.upload
-        parameter_name: upload
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 6.inputs.channel
-        parameter_name: channel
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: image
+  - id: 9zwqkjx7oj
+    name: basic.json
+    description: ''
+    file: primary/basic.json
+  - id: quyva1vmck
+    name: newFile.json
+    description: ''
+    file: rnjqjbr/newFile.json
+  - id: a6g96uumkvk
+    name: 12qeq.json
+    description: ''
+    file: testing/12qeq.json
+  - id: za93z4behpo
+    name: eee.json
+    description: ''
+    file: testing/eee.json
+  - id: qngla6pd7x9
+    name: gggh.json
+    description: ''
+    file: testing/gggh.json
+  - id: p10etrc78n
+    name: nfkanljn_fnaklnflan_fnangk.json
+    description: ''
+    file: testing/nfkanljn_fnaklnflan_fnangk.json
+  - id: rwi2o0i444
+    name: qq_api.json
+    description: ''
+    file: testing/qq_api.json
+  - id: 92ohczaaqe6
+    name: My workflow.json
+    description: ''
+    file: tet/My workflow.json
