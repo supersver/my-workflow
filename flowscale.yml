@@ -4,56 +4,39 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: b60ujyupx1
+  - id: hypnrtmvxwi
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-    inputs:
-      - path: 193.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 3.inputs.seed
-        parameter_name: seed
-        type: integer
-        demo_type: number
-        category: input
-        randomize: true
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: image
-  - id: ib4mfrni5d8
+  - id: yuybwykkdt
     name: user_models_and_nodes.json
     description: ''
     file: user_models_and_nodes.json
-  - id: 3zfqfgfqspv
+  - id: bsr0fvxdow
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: mld0yoaa14
+  - id: o6ioh350ixl
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: 4ee08zmvc59
+  - id: 2cuvf54geft
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: ya4jm7gf4em
+  - id: teplfiatve
     name: basic.json
     description: ''
     file: primary/basic.json
-  - id: 5156qu1at9
+  - id: vivbwcijyf
     name: nfkanljn_fnaklnflan_fnangk.json
     description: ''
     file: testing/nfkanljn_fnaklnflan_fnangk.json
-  - id: evm52h6nfan
+  - id: py7uvpjani
     name: qq_api.json
     description: ''
     file: testing/qq_api.json
+  - id: 91g2c079gy
+    name: zz_api.json
+    description: ''
+    file: tet/zz_api.json
