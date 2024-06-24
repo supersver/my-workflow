@@ -51,7 +51,3 @@ workflows:
     name: qq_api.json
     description: ''
     file: testing/qq_api.json
-  - id: 91g2c079gy
-    name: zz_api.json
-    description: ''
-    file: tet/zz_api.json
