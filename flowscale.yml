@@ -23,30 +23,6 @@ workflows:
         randomize: false
     outputs:
       - demo_type: text
-  - id: yuybwykkdt
-    name: user_models_and_nodes.json
-    description: ''
-    file: user_models_and_nodes.json
-  - id: bsr0fvxdow
-    name: deps.json
-    description: ''
-    file: __comfy/data/deps.json
-  - id: o6ioh350ixl
-    name: snapshot.json
-    description: ''
-    file: __comfy/data/snapshot.json
-  - id: 2cuvf54geft
-    name: img2mask.json
-    description: ''
-    file: img2mask/img2mask.json
-  - id: teplfiatve
-    name: basic.json
-    description: ''
-    file: primary/basic.json
-  - id: vivbwcijyf
-    name: nfkanljn_fnaklnflan_fnangk.json
-    description: ''
-    file: testing/nfkanljn_fnaklnflan_fnangk.json
   - id: py7uvpjani
     name: qq_api.json
     description: ''
