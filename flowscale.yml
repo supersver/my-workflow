@@ -4,47 +4,39 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: hypnrtmvxwi
+  - id: vk5jk5rccfe
     name: apparel_bg_change.json
     description: ''
     file: apparel_bg_change.json
-    inputs:
-      - path: 3.inputs.seed
-        parameter_name: seed
-        type: integer
-        demo_type: number
-        category: input
-        randomize: true
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: text
-  - id: py7uvpjani
+  - id: a36azfaznqm
+    name: user_models_and_nodes.json
+    description: ''
+    file: user_models_and_nodes.json
+  - id: ltascbmcl1o
+    name: deps.json
+    description: ''
+    file: __comfy/data/deps.json
+  - id: eytaqq179ia
+    name: snapshot.json
+    description: ''
+    file: __comfy/data/snapshot.json
+  - id: g2gaud1ma7r
+    name: img2mask.json
+    description: ''
+    file: img2mask/img2mask.json
+  - id: 8uwizayv2tc
+    name: basic.json
+    description: ''
+    file: primary/basic.json
+  - id: b981jrifgzs
+    name: new-file_api.json
+    description: ''
+    file: testing/new-file_api.json
+  - id: xem803avizi
+    name: nfkanljn_fnaklnflan_fnangk.json
+    description: ''
+    file: testing/nfkanljn_fnaklnflan_fnangk.json
+  - id: ds9961annqw
     name: qq_api.json
     description: ''
     file: testing/qq_api.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 3.inputs.seed
-        parameter_name: seed
-        type: integer
-        demo_type: number
-        category: input
-        randomize: true
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: image
